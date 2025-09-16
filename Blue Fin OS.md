@@ -26,7 +26,7 @@ Bluefin OS is an immutable Linux distribution built on a **Universal Blue** imag
 
 ### Key Host OS Management Commands:
 - **`rpm-ostree status`**: View the current OS deployment and any available rollbacks.
-- you can **“save” the preferred version of Silverblue OS** that you are most satisfied with, and then later you can pick it from the boot menu. You do this with a simple command sudo ostree admin pin #, where # is the order of the OS images available when you type rpm-ostree status.
+- you can **“save” the preferred version of Silverblue OS** that you are most satisfied with, and then later you can pick it from the boot menu. You do this with a simple command **`sudo ostree admin pin #`**, where # is the order of the OS images available when you type rpm-ostree status.
 - **`rpm-ostree rollback`**: Revert to the previous OS version (lifesaver!).
 - **`ujust update`**: The easy button. Updates the system, Flatpaks, and Toolbox packages.
 - **`ujust clean-system`**: Cleans up containers, Flatpak runtimes, and temp files. Run this regularly.
