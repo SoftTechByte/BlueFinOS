@@ -1,6 +1,6 @@
 #  Tutorial: Mermaid CLI on Bluefin OS
 
-Mermaid CLI (`mmdc`) lets you convert plain-text diagrams (Mermaid syntax) into **PNG / SVG / PDF**. On **Bluefin OS** (Fedora Silverblue/Kinoite family), `dnf` is restricted, so you need a **user-space only setup**. This guide shows you how to:
+Mermaid CLI (`mmdc`) lets you convert plain-text diagrams (Mermaid syntax) into **PNG / SVG / PDF**. This guide shows you how to:
 
 1. Set up Mermaid CLI on Bluefin.
 2. Run a proof-of-concept diagram.
