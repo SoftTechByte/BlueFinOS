@@ -197,4 +197,3 @@ rm -rf ~/.cache/puppeteer
 
 ---
 
-Now you're ready to create beautiful diagrams from simple text files on your Bluefin system! 🎨
