@@ -60,9 +60,10 @@ flowchart TD
 
 ```bash
 mmdc -i test.mmd -o test.png
+mmdc -i test.mmd -o test.png -s 10
 ```
 
-🎉 Now you'll see `test.png` — your first Mermaid diagram!
+🎉 Now you'll see `test.png` — your first Mermaid diagram! , we used -s 10 for better resolution, so that when you zoom pic, it should not blur. the value of -s you can set 1/2/..whatever you wish, the higher you choose - you get better resolution and bigger file size.
 
 ---
 
